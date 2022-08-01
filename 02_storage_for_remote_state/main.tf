@@ -6,6 +6,11 @@ terraform {
     aws = {
       source = "hashicorp/aws"
     }
+
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "3.13.0"
+    }
   }
 }
 
@@ -18,4 +23,8 @@ provider "aws" {
       managed-by = "Terraform"
     }
   }
+}
+
+provider "azurerm" {
+  features {}
 }
