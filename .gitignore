@@ -1,5 +1,5 @@
 */.terraform*
 */terraform.tfstate*
-credentials/*.sh
+credentials/*
 */*.info
 */*.out
