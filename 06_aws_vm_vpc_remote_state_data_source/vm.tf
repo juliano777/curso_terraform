@@ -13,6 +13,7 @@ resource "aws_instance" "vm" {
 
   tags = {
     "Name" = "vm-terraform"
-
   }
 }
+
+# ssh-keygen -f aws-key -P '' -t rsa && chmod 0600 aws-key*
